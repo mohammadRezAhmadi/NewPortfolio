@@ -1,31 +1,8 @@
-# رزومه آنلاین تعاملی
+# رزومه آنلاین 
 
 رزومه/پورتفولیوی شخصی با Vite، Tailwind CSS و Vanilla JS.
 
-## پیش‌نیاز
+نمایش سوابق ، مهارت ها و پروژه های انجام شده
 
-- Node.js 18+
-
-## اجرا
-
-```bash
-npm install
-npm run dev
-```
-
-آدرس: http://localhost:5173/
-
-## بیلد پروداکشن
-
-```bash
-npm run build
-npm run preview
-```
-
-خروجی در پوشه `dist/` قرار می‌گیرد.
-
-## شخصی‌سازی
-
-اطلاعات و متن‌ها: `src/data/content.js`  
-فونت فارسی: `public/fonts/`  
-استایل‌ها: `src/style.css`
+با تشکر از توجه شما.
+محمدرضا احمدی
