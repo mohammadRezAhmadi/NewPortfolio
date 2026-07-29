@@ -56,7 +56,7 @@ export const experiences = [
     role: 'وبمستر وبسایت پروشات استور',
     company: 'کارخانه کیمیا',
     description:
-      'پشتیبان و توسعه دهنده سعو و امنیت و بهبود سرعت وبسایت proshutstore.ir',
+      'پشتیبان و توسعه دهنده سئو و امنیت و بهبود سرعت وبسایت proshutstore.ir',
     tags: ['Wordpress', 'SEO', 'WooCommerce' , 'Elementor'],
   },
   {
@@ -80,7 +80,7 @@ export const experiences = [
     role: 'کارآموز بلاکچین',
     company: 'Archie',
     description:
-      'طراحی قراردادهای هوشمند بر رستر بلاکچین و دپلوی توکن ها و NFT ها',
+      'طراحی قراردادهای هوشمند بر بستر بلاکچین و دپلوی توکن ها و NFT ها',
     tags: ['Solidity', 'Muka', 'NFT'  , "BlockChain"],
   },
 ];
@@ -112,7 +112,7 @@ export const projects = [
     link: 'https://proshutstore.ir',
   },
   {
-    title: 'پروژه دانشگاه منتظری',
+    title: 'پروژه پایانی دانشگاه',
     description: 'پروژه برگزاری جشنواره و مسابقه برای دانشجویان توسط مدیران دانشگاه و قابلیت تعریف امتیاز و امکان چت زنده و ایجاد گروه با دانشجویان و مدیران',
     image: projectImage('برگزاری مسابقه', '#0284c7', '#059669'),
     photo:"./university.png",
@@ -121,7 +121,7 @@ export const projects = [
   },
   {
     title: 'رزومه آنلاین',
-    description: 'پورتفولیوی شخصی تعاملی با انیمیشن‌های روان، تم تاریک و روشن و طراحی واکنش‌گرا.Spa طراحی شده یا سرعت بسیار بالا',
+    description: 'پورتفولیوی شخصی تعاملی با انیمیشن‌های روان و طراحی واکنش‌گرا.Spa طراحی شده یا سرعت بسیار بالا',
     image: projectImage('رزومه آنلاین', '#d97706', '#dc2626'),
     photo:"portfolio.png",
     tags: ['React', 'Tailwind', 'Chartjs' , 'React-Router-dom'],
@@ -129,7 +129,7 @@ export const projects = [
   },
   {
     title: 'صفحه لندینگ و صفحات ثبت نام',
-    description: 'سراحی صفحه اول سایت نمایشگاه بزرگ تهران با انیمیشن های متعدد و طراحی صفحات ثبت نام غرفه و غیره',
+    description: 'طراحی صفحه اول سایت نمایشگاه بزرگ تهران با انیمیشن های متعدد و طراحی صفحات ثبت نام غرفه و غیره',
     image: projectImage('ایران اکسپو', './Iranexpo.png'),
     photo: "Iranexpo.png",
     tags: ['Jquery', 'Css', 'OwlCarousel' , 'JS'],
