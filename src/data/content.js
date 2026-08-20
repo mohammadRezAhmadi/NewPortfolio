@@ -53,6 +53,14 @@ export const skillBars = [
 export const experiences = [
   {
     period: '1405 — اکنون',
+    role: 'طراح و توسعه‌دهنده وب – فریلنسر',
+    company: 'فریلنسر',
+    description:
+      'طراحی و توسعه وب‌سایت‌های اختصاصی و وردپرسی برای کسب‌وکارها و برندهای مختلف؛ از طراحی رابط کاربری و پیاده‌سازی صفحات تا راه‌اندازی فروشگاه اینترنتی، بهینه‌سازی سرعت، سئو و پشتیبانی فنی.',
+    tags: ['Wordpress', 'SEO' , 'Elementor' , "Html , Css" , "gasp - threeJs" , "React Js" , "Shadcn" , "tailwindCss"],
+  },
+  {
+    period: '1405 — اکنون',
     role: 'وبمستر وبسایت پروشات استور',
     company: 'کارخانه کیمیا',
     description:
@@ -96,12 +104,12 @@ function projectImage(title, color1, color2) {
 
 export const projects = [
   {
-    title: 'وبسایت فروشگاهی شومال',
-    description: 'وبسایت فروشگاهی و چند فروشندگی و با امکان محاسبه موقعیت جغرافیایی',
-    image: projectImage('فروشگاه شومال', 'Showmall.png',),
-    photo:"Showmall.png",
-    tags: ['Js', 'Leaflet', 'Css'],
-    link: 'https://showmall.ir/home1.axd',
+    title: 'فروشگاه اینترنتی قهوه تبریزی',
+    description: 'فروشگاه انلاین قهوه تبریزی ',
+    image: projectImage('فروشگاه آنلاین', '#7c3aed', '#db2777'),
+    photo: "./tabrizi-coffee.png",
+    tags: ['Worpress', 'Elementor', 'JetEngine' , "Css"],
+    link: 'https://tabrizicoffee.ir',
   },
   {
     title: 'فروشگاه اینترنتی پروشات',
@@ -110,6 +118,14 @@ export const projects = [
     photo: "./proshutstore.png",
     tags: ['Worpress', 'Elementor', 'JetEngine' , "Css"],
     link: 'https://proshutstore.ir',
+  },
+  {
+    title: 'وبسایت فروشگاهی شومال',
+    description: 'وبسایت فروشگاهی و چند فروشندگی و با امکان محاسبه موقعیت جغرافیایی',
+    image: projectImage('فروشگاه شومال', 'Showmall.png',),
+    photo:"Showmall.png",
+    tags: ['Js', 'Leaflet', 'Css'],
+    link: 'https://showmall.ir/home1.axd',
   },
   {
     title: 'پروژه پایانی دانشگاه',

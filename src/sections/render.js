@@ -48,10 +48,6 @@ export function renderHero() {
         </p>
 
         <div class="hero-item hero-delay-4 flex flex-wrap gap-3 mb-10">
-          <a href="${profile.resumeUrl}" download class="btn-primary" id="download-resume">
-            ${icons.download}
-            دریافت رزومه
-          </a>
           <a href="#projects" class="btn-outline">
             ${icons.layers}
             دیدن نمونه‌کارها
@@ -218,12 +214,12 @@ export function renderContact() {
     <div class="glass-card p-10 sm:p-14 text-center reveal relative overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-accent-500/5 pointer-events-none"></div>
       <div class="relative">
-        <div class="section-badge mx-auto">تماس</div>
-        <h2 class="section-title mb-3">همکاری کنیم؟</h2>
-        <p class="section-subtitle !mb-8 mx-auto">اگر پروژه‌ای دارید یا به دنبال نیروی فرانت‌اند هستید، خوشحال می‌شوم باهاتون صحبت کنم.</p>
+        <div class="section-badge mx-auto">تماس بامن</div>
+        <h2 class="section-title mb-3">پروژه‌ای در ذهن دارید؟ باهم اجرایش کنیم.</h2>
+        <p class="section-subtitle !mb-8 mx-auto">اگر برای طراحی سایت، توسعه یا اجرای یک ایده به دنبال همکاری مطمئن هستید، خوشحال می‌شوم درباره پروژه‌تان بیشتر بدانم و برای بهترین راه‌حل باهم صحبت کنیم.</p>
         <div class="flex flex-wrap justify-center gap-3">
-          <a href="mailto:${profile.email}" class="btn-primary">${icons.mail} ارسال ایمیل</a>
-          <a href="${profile.linkedin}" target="_blank" rel="noopener noreferrer" class="btn-outline">${icons.linkedin} لینکدین</a>
+          <a href="mailto:${profile.email}" class="btn-primary">${icons.mail} شروع همکاری</a>
+          <a href="${profile.linkedin}" target="_blank" rel="noopener noreferrer" class="btn-outline">${icons.linkedin} ارتباط در لینکدین</a>
         </div>
       </div>
     </div>
